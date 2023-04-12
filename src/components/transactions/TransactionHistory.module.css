@@ -1,0 +1,25 @@
+
+.thead {
+    background-color: rgb(60, 169, 199);
+    color: #fff;
+
+}
+
+.label {
+    padding: 15px 80px;
+}
+
+.tbody {
+    background-color: #fff;
+    text-align: center;
+    font-size: 30px;
+    color: #909196;
+}
+
+.tr:nth-child(2n) {
+    background-color:rgb(194, 222, 229)
+}
+
+.table {
+    margin-bottom: 30px;
+}

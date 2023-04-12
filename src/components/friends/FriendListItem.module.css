@@ -1,0 +1,19 @@
+.item {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.red {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.green {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: green;
+}
