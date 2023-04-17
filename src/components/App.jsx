@@ -10,7 +10,6 @@ import friends from './friends/friends.json';
 import Transactions from './transactions/TransactionHistory';
 import transaction from './transactions/transactions.json';
 
-
 export const App = () => {
   return (
     <div
@@ -29,23 +28,13 @@ export const App = () => {
         location={user.location}
         avatar={user.avatar}
         stats={user.stats}
-        followers={user.stats.followers}
-        views={user.stats.views}
-        likes={user.stats.likes}
       />
 
-      <Statistics 
-      title='Upload stats'
-        stats={data}
-      />
+      <Statistics title="Upload stats" stats={data} />
 
-       <FriendList
-      friends={friends}
-      />
-      
-        <Transactions
-      items={transaction}
-      />
-</div>
+      <FriendList friends={friends} />
+
+      <Transactions items={transaction} />
+    </div>
   );
 };
